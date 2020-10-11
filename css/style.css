@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 #contPhotoText{
     height: 30em;
@@ -98,6 +99,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center; 
+    z-index: 10;
      
 }
 #logo{
@@ -278,39 +280,68 @@ footer{
 
 
 #contContact{
-    height: 90%;
-    width:90%;
+    height: 40em;
+    width: 40em;
     display: flex;
     background-color: greenyellow;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     background: url(/IMG/disquete.png) no-repeat center/cover;
-    background-size: 50%;
+    background-size: 100%;
+    position: relative;
 }
 #contactTittle{
     font-size: 40px;
     font-family: 'Electrolize', sans-serif;
     color: #284B63;
     padding-bottom: 20px;
-
-
+    position: relative;
+    
 }
 #contactText{
+    
     font-size: 20px;
     font-family: 'Electrolize', sans-serif;
     color: #284B63;
     padding-bottom: 20px;;
+    position: relative;
 }
 #contactTel{
+    
     font-size: 20px;
     font-family: 'Electrolize', sans-serif;
     color: #284B63;
     padding-bottom: 20px;
+    position: relative;
 }
 #contactEmail{
+    
     font-size: 20px;
     font-family: 'Electrolize', sans-serif;
     color: #284B63;
-    padding-bottom: 80px;
+    padding-bottom: 1em;
+    position: relative;
 }
+#contactGitHub{
+    
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    color: #284B63;
+    padding-bottom: 4em;
+    position: relative;
+   
+}
+#contactGitHub a{
+    font-size: 20px;
+    color: #284B63;
+    font-family: 'Electrolize', sans-serif;
+    padding-bottom: 1em;
+    position: relative;
+   
+}
+/******************************************************************************************
+*******************************************************************************************
+************************************       ABOUT ME      **********************************
+*******************************************************************************************
+******************************************************************************************/
