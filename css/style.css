@@ -269,3 +269,48 @@ footer{
 #contInstagram i{
     color: #D9D9D9;
 }
+
+/******************************************************************************************
+*******************************************************************************************
+************************************        CONTACT      **********************************
+*******************************************************************************************
+******************************************************************************************/
+
+
+#contContact{
+    height: 90%;
+    width:90%;
+    display: flex;
+    background-color: greenyellow;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background: url(/IMG/disquete.png) no-repeat center/cover;
+    background-size: 50%;
+}
+#contactTittle{
+    font-size: 40px;
+    font-family: 'Electrolize', sans-serif;
+    color: #284B63;
+    padding-bottom: 20px;
+
+
+}
+#contactText{
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    color: #284B63;
+    padding-bottom: 20px;;
+}
+#contactTel{
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    color: #284B63;
+    padding-bottom: 20px;
+}
+#contactEmail{
+    font-size: 20px;
+    font-family: 'Electrolize', sans-serif;
+    color: #284B63;
+    padding-bottom: 80px;
+}
