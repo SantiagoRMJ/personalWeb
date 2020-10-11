@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #gralCont{
     height: 170vh;
     width: 100vw;
@@ -347,3 +353,32 @@ footer{
 ************************************       ABOUT ME      **********************************
 *******************************************************************************************
 ******************************************************************************************/
+
+#contPhotoAboutMe{  
+        height: 90vh;
+        width: 100vw;
+        background-color: #D9D9D9;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        background: url(/IMG/fondoAbout.jpg) no-repeat center/cover;
+}
+#myNameIs{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 6em;
+    height: 20em;
+    width: 20em;
+    background: url(/IMG/HiMyNameIs.png) no-repeat center/cover;
+    transform: rotate(-25deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Just Another Hand', cursive;
+}
+#textName{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 80px;
+    padding-top: 30px;
+}
