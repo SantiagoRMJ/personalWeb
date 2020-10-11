@@ -58,7 +58,11 @@
 }
 
 
-/**  NAVEGADOR **/
+/*************************************
+**************************************
+*********       NAV        ***********
+**************************************
+*************************************/
 
 #navBar{
     height: 4em;
@@ -125,6 +129,7 @@ a{
     padding-right: 1em;
     color:  #FFFFFF;
 }
+
 #spaceBlock{
     height: 5em;
     width: 100%;
@@ -376,27 +381,25 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Just Another Hand', cursive;
     z-index: 2;
 }
 #textName{
     font-family: 'Just Another Hand', cursive;
     font-size: 80px;
-    padding-top: 30px;
-    
+    padding-top: 30px;   
 }
 #contTextAbout{
     height: 60vh;
     width: 40vw;
     background-color: gray;
     margin-top: 10em;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 20%;
 }
 #textAbout{
     font-family: 'Electrolize', sans-serif;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 24px;
     padding: 2em;
-
+    line-height: 27px;
 }
