@@ -1,0 +1,59 @@
+#gralCont{
+    height: 200vh;
+    width: 100vw;
+    background-color: aqua;
+}
+#firstBlock{
+    height: 30em;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#navBar{
+    height: 4em;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav0{
+    height: 3em;
+    width: 30%;
+    background-color: chartreuse;
+}
+.nav1{
+    height: 3em;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+li{
+    padding: 0 4em;
+    font-size: 20px;
+}
+
+.nav{
+    width: 60%;
+    height: 100%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    list-style: none;
+    text-decoration: none;  
+    align-content: space-around;  
+}
+#logo{
+    width: 40%;
+    height: 100%;
+    background-color: hotpink;
+}
+
