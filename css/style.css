@@ -60,6 +60,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    z-index: 2;
 }
 
 .nav0{
@@ -219,7 +220,7 @@ a{
 *************************************/
 
 footer{
-    height: 5em;
+    height: 12vh;
     width: 100%;
     background-color: #353535;
     display: flex;
@@ -227,7 +228,7 @@ footer{
     align-items: center;
 }
 #follow{
-    height: 5em;
+    height: 12vh;
     width: 10%;
     background-color: 353535;
     display: flex;
@@ -239,7 +240,7 @@ footer{
 
 }
 #contGithub{
-    height: 5em;
+    height: 12vh;
     width: 10%;
     background-color: #353535;
     display: flex;
@@ -250,7 +251,7 @@ footer{
     color: #D9D9D9;
 }
 #contLinkedin{
-    height: 5em;
+    height: 12vh;
     width: 10%;
     background-color: #353535;
     display: flex;
@@ -261,7 +262,7 @@ footer{
     color: #D9D9D9;
 }
 #contInstagram{
-    height: 5em;
+    height: 12vh;
     width: 10%;
     background-color: #353535;
     display: flex;
@@ -290,6 +291,7 @@ footer{
     background: url(/IMG/disquete.png) no-repeat center/cover;
     background-size: 100%;
     position: relative;
+    z-index: 2;
 }
 #contactTittle{
     font-size: 40px;
