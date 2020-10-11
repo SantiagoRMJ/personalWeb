@@ -6,7 +6,7 @@
 #firstBlock{
     height: 30em;
     width: 100%;
-    background-color: brown;
+    background-color: rgb(228, 179, 179);
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -37,19 +37,23 @@
 li{
     padding: 0 4em;
     font-size: 20px;
+    list-style: none;
+    text-decoration: none; 
 }
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; 
+}
 .nav{
     width: 60%;
     height: 100%;
     background-color: greenyellow;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
-    list-style: none;
-    text-decoration: none;  
-    align-content: space-around;  
+    align-items: center; 
+     
 }
 #logo{
     width: 40%;
